@@ -1,8 +1,167 @@
 /* Universal style rules */
 html {
-
+  font-size: 18px;
 }
 body {
+  font-family: Helvetica, sans-serif;
+}
+header {
+
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+h3 {
+  font-size: 1rem;
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.content {
+  width: 960px;
 
 }
 /* Class rules */
+
+.header {
+  display: flex;
+  align-items: center;
+}
+.header img {
+  height: 1.5rem;
+  width: auto;
+  padding-right: 1rem;
+  padding-left: 0.5rem;
+  display: inline-block;
+  align-items: center;
+}
+.header h3 {
+  display: inline-block;
+  align-items: center;
+    padding: 0.66rem 0;
+}
+.banner-background {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 25rem;
+  margin-top: 0;
+
+}
+.banner {
+
+}
+.banner-title {
+  background-color: black;
+  width: 26rem;
+  position: relative;
+  top: 9rem;
+  font-weight: bold;
+  padding: 2rem 0;
+
+  margin-top: 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.banner-title span {
+  font-size: 2rem;
+  padding: .25rem 0 0 3rem;
+  font-weight: bold;
+}
+.banner-title h3 {
+  font-size: 1.25rem;
+  padding-left: 3rem;
+  font-weight: bold;
+}
+.nav {
+  width: 100%;
+  background-color: firebrick;
+
+  margin: 0 auto;
+  align-items: center;
+}
+nav {
+
+}
+.navbar {
+  justify-content: space-between;
+  display: flex;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+  padding: .75rem 0;
+}
+.navbar span {
+  padding: .75rem 0;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+.item {
+  border: 4px solid black;
+  display: inline-block;
+  width: 30%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+.image {
+  display: flex;
+  flex-grow: 0;
+  flex-shrink: 0;
+  width: 200px;
+  height: 9rem;
+  padding: 2rem 0;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.item p {
+  background-color: black;
+  color: white;
+  padding: 0.5rem 0;
+  text-align: center;
+  width: 100%;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+
+}
+.info-box {
+  display: inline-block;
+  width: 35%;
+  margin-bottom: 4rem;
+}
+.info-title p {
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+}
+footer {
+  background-color: black;
+  height: 5rem;
+  color: white;
+  display: flex;
+  align-items: center;
+}
